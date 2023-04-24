@@ -24,6 +24,7 @@ class TestApi(unittest.TestCase):
         self.assertTrue(self.api.get_mat('хуегномы угрожают бомбардировкой'))
         self.assertFalse(self.api.get_mat('Казахстан угрожает нам бомбардировкой'))
         self.assertFalse(self.api.get_mat('Мудоёбище должно нас не заметить. Иначе мы попадём в просак'))
+        
     def test_emotion(self):
         self.assertTrue(self.api.emotion('Мне так плохо'))
         self.assertTrue(self.api.emotion('Завтра выходной!'))

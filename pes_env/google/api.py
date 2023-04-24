@@ -106,3 +106,5 @@ class GoogleFitApi:
                 point.update(value=int(point["value"][0]["fpVal"]))
                 result.append(point)
         return result
+        """_summary_
+        """
